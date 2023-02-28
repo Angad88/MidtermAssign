@@ -46,26 +46,6 @@ public class Books {
         return serialID;
     }
 
-    public void setBookName(String bookName) {
-        this.bookName = bookName;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public void setGenre(String genre) {
-        this.genre = genre;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
-    }
-
-    public void setSerialID(String serialID) {
-        this.serialID = serialID;
-    }
-
     public void bookInformation() {
         System.out.println("Book Name: " + this.getBookName());
         System.out.println("Author: " + this.getAuthor());
